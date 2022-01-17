@@ -33,6 +33,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             "title" : "两数之和",
             "class" : "TwoNumberSum"
         ],
+        [
+            "title" : "不重复最长字符串",
+            "class" : "RepetStringLength"
+        ],
         
     ];
     
