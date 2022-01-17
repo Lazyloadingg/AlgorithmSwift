@@ -16,7 +16,21 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         [
             "title" : "青蛙跳台阶",
             "class" : "JumpFloor"
-        ]
+        ],
+        [
+            "title" : "两矩阵重叠面积",
+            "class" : "Area"
+        ],
+        [
+            "title" : "反转字符串",
+            "class" : "ReversalString"
+        ],
+        [
+            "title" : "最大盛水量",
+            "class" : "MostWater"
+        ],
+        
+        
         
     ];
     
