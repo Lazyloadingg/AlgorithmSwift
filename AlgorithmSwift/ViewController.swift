@@ -29,8 +29,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             "title" : "最大盛水量",
             "class" : "MostWater"
         ],
-        
-        
+        [
+            "title" : "两数之和",
+            "class" : "TwoNumberSum"
+        ],
         
     ];
     
