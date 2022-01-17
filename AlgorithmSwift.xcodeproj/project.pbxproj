@@ -21,6 +21,7 @@
 		961860542794499900E5B218 /* JumpFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961860532794499900E5B218 /* JumpFloor.swift */; };
 		A45AEFD127953A760002E3D4 /* ReversalString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFD027953A760002E3D4 /* ReversalString.swift */; };
 		A45AEFD32795533F0002E3D4 /* MostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFD22795533E0002E3D4 /* MostWater.swift */; };
+		A45AEFD527955EEA0002E3D4 /* TwoNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFD427955EEA0002E3D4 /* TwoNumberSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		961860532794499900E5B218 /* JumpFloor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpFloor.swift; sourceTree = "<group>"; };
 		A45AEFD027953A760002E3D4 /* ReversalString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversalString.swift; sourceTree = "<group>"; };
 		A45AEFD22795533E0002E3D4 /* MostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostWater.swift; sourceTree = "<group>"; };
+		A45AEFD427955EEA0002E3D4 /* TwoNumberSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoNumberSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				A45AEFD027953A760002E3D4 /* ReversalString.swift */,
 				A45AEFD22795533E0002E3D4 /* MostWater.swift */,
 				9618604F2794430E00E5B218 /* BaseViewController.swift */,
+				A45AEFD427955EEA0002E3D4 /* TwoNumberSum.swift */,
 				96185FEB27943BDA00E5B218 /* Main.storyboard */,
 				96185FEE27943BDC00E5B218 /* Assets.xcassets */,
 				96185FF027943BDC00E5B218 /* LaunchScreen.storyboard */,
@@ -279,6 +282,7 @@
 				961860542794499900E5B218 /* JumpFloor.swift in Sources */,
 				96185FEA27943BDA00E5B218 /* ViewController.swift in Sources */,
 				96185FE627943BDA00E5B218 /* AppDelegate.swift in Sources */,
+				A45AEFD527955EEA0002E3D4 /* TwoNumberSum.swift in Sources */,
 				A45AEFD127953A760002E3D4 /* ReversalString.swift in Sources */,
 				9618604E279441A800E5B218 /* Sqrt.swift in Sources */,
 			);
