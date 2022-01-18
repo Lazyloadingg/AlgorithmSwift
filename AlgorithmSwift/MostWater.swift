@@ -32,7 +32,4 @@ class MostWater: BaseViewController {
         }
         return res;
     }
-    
-
-
 }

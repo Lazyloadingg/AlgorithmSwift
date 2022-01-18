@@ -37,7 +37,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             "title" : "不重复最长字符串",
             "class" : "RepetStringLength"
         ],
-        
+        [
+            "title" : "最长回文字符串",
+            "class" : "CircleString"
+        ],
     ];
     
     lazy var tableView: UITableView = {
