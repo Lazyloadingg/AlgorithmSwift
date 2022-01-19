@@ -30,7 +30,7 @@ class CircleString: BaseViewController {
             print("---------------")
             print("原字符串：\(str)")
             print("最大回文串1：\(self.method(str: str))");
-            print("最大回文串2：\(self.method2(str: str))");
+            print("最大回文串2：\(self.method2(s: str))");
             print("---------------")
             print("\n");
         }
@@ -72,11 +72,11 @@ class CircleString: BaseViewController {
     }
     
     //中心扩展法
-    func method2(str:String) -> String {
-        if(str.count < 1){
+    func method2( s : String) -> String {
+        if(s.count < 1){
             return "";
         }
-        let arr = str.compactMap { i in
+        let arr = s.compactMap { i in
             return String(i);
         }
         var maxLen = 1;

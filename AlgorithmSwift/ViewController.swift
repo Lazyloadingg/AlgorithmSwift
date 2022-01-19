@@ -41,6 +41,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             "title" : "最长回文字符串",
             "class" : "CircleString"
         ],
+        [
+            "title" : "整数翻转",
+            "class" : "reverseNum"
+        ],
+        
     ];
     
     lazy var tableView: UITableView = {
