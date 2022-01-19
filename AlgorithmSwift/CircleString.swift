@@ -20,14 +20,17 @@ class CircleString: BaseViewController {
             "cbbd",
             "ac",
             "n",
-            "上海自来水来自海上"
+            "abba",
+            "abb",
+            "abcccba",
+            ""
         ];
         
         _ = test.map { str in
             print("---------------")
             print("原字符串：\(str)")
             print("最大回文串1：\(self.method(str: str))");
-//            print("最大回文串2：\(self.method2(str: str))");
+            print("最大回文串2：\(self.method2(str: str))");
             print("---------------")
             print("\n");
         }
@@ -68,31 +71,50 @@ class CircleString: BaseViewController {
         return res.count > 0 ? res : temp.joined();
     }
     
+    //中心扩展法
     func method2(str:String) -> String {
         if(str.count < 1){
             return "";
         }
-        var res = "";
         let arr = str.compactMap { i in
             return String(i);
         }
-        var center = arr.count / 2;
-        var left = center-1;
-        var right = center+1;
-        while center > 0 && center < arr.count {
-            let s = arr[left];
-            let  e = arr[right];
-            if(s == e){
-                let temp = arr[left...right].joined();
-                res = res.count > temp.count ? res : temp;
-                left -= 1;
-                right += 1;
-            }else{
-                center += 1;
+        var maxLen = 1;
+        var left = 0;
+        for i in 0..<arr.count {
+            /**
+             回文字符就是中心对称字符，从中心往两边延每个对应字符都相同，所以
+             
+             1. 我们遍历整个字符串，然后以每个字符为中心往两边延展，直到两侧字符不相同为止
+             2. 但是中心分两种情况，单数长度回文的中心是一个字符，双数长度回文的中心是两个字符，所以每次遍历要把两种情况都考虑到，然后取更长的那个字符，并记录下长度和初始字符位置
+             3. 遍历完整个字符串后取长度更长的回文字符返回
+             */
+            let len1 = expandString(arr: arr, left: i, right: i);
+            let len2 = expandString(arr: arr, left: i, right: i+1);
+            let len = max(len1, len2);
+            
+            if len > maxLen {
+                maxLen = len;
+                //因为两侧对称，i为字符中心位置，所以i两侧的字符长度相等，所以此回文的起点为 i （减去长度 -1 除以2）
+                left = i - (len-1) / 2;
             }
         }
-        
-        return res;
+        return arr[left..<left+maxLen].joined();
+    }
+    
+    func expandString(arr : [String],left : Int,right : Int) -> Int{
+        var l = left;
+        var r = right;
+        while l >= 0 && r < arr.count {
+            if arr[l] == arr[r] {
+                //因为此处判断相等后继续延展，那么最后一次延展后两侧索引对应的字符是不等的，所以最后返回长度时 right-left后要再减去1
+                l -= 1;
+                r += 1;
+            }else{
+                break;
+            }
+        }
+        return r - l - 1;
     }
     
     //MARK: tool
