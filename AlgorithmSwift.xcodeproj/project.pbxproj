@@ -20,6 +20,7 @@
 		96186052279447EF00E5B218 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96186051279447EF00E5B218 /* Area.swift */; };
 		961860542794499900E5B218 /* JumpFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961860532794499900E5B218 /* JumpFloor.swift */; };
 		962BFE3E279855D5006A7910 /* reverseNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962BFE3D279855D5006A7910 /* reverseNum.swift */; };
+		962BFE402799AC24006A7910 /* FindNumberIn2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962BFE3F2799AC24006A7910 /* FindNumberIn2DArray.swift */; };
 		966F77092795B39900DC61F2 /* RepetStringLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F77082795B39900DC61F2 /* RepetStringLength.swift */; };
 		A45AEFD127953A760002E3D4 /* ReversalString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFD027953A760002E3D4 /* ReversalString.swift */; };
 		A45AEFD32795533F0002E3D4 /* MostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFD22795533E0002E3D4 /* MostWater.swift */; };
@@ -65,6 +66,7 @@
 		96186051279447EF00E5B218 /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		961860532794499900E5B218 /* JumpFloor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpFloor.swift; sourceTree = "<group>"; };
 		962BFE3D279855D5006A7910 /* reverseNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseNum.swift; sourceTree = "<group>"; };
+		962BFE3F2799AC24006A7910 /* FindNumberIn2DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumberIn2DArray.swift; sourceTree = "<group>"; };
 		966F77082795B39900DC61F2 /* RepetStringLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepetStringLength.swift; sourceTree = "<group>"; };
 		A45AEFD027953A760002E3D4 /* ReversalString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversalString.swift; sourceTree = "<group>"; };
 		A45AEFD22795533E0002E3D4 /* MostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostWater.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				A45AEFD8279908BC0002E3D4 /* SamePrefix.swift */,
 				A45AEFDA27994D480002E3D4 /* SameNum.swift */,
 				A45AEFDC27995E840002E3D4 /* ReplaceBlank.swift */,
+				962BFE3F2799AC24006A7910 /* FindNumberIn2DArray.swift */,
 				96185FEB27943BDA00E5B218 /* Main.storyboard */,
 				96185FEE27943BDC00E5B218 /* Assets.xcassets */,
 				96185FF027943BDC00E5B218 /* LaunchScreen.storyboard */,
@@ -304,6 +307,7 @@
 				A45AEFD72796630D0002E3D4 /* CircleString.swift in Sources */,
 				96185FE627943BDA00E5B218 /* AppDelegate.swift in Sources */,
 				A45AEFD527955EEA0002E3D4 /* TwoNumberSum.swift in Sources */,
+				962BFE402799AC24006A7910 /* FindNumberIn2DArray.swift in Sources */,
 				966F77092795B39900DC61F2 /* RepetStringLength.swift in Sources */,
 				A45AEFD127953A760002E3D4 /* ReversalString.swift in Sources */,
 				9618604E279441A800E5B218 /* Sqrt.swift in Sources */,

@@ -57,9 +57,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             "title" : "替换字符串空格",
             "class" : "ReplaceBlank"
         ],
-        
-        
-        
+        [
+            "title" : "二维数组中查找",
+            "class" : "FindNumberIn2DArray"
+        ],
+
     ];
     
     lazy var tableView: UITableView = {
