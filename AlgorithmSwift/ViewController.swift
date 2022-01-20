@@ -45,6 +45,20 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             "title" : "整数翻转",
             "class" : "reverseNum"
         ],
+        [
+            "title" : "最长公共前缀",
+            "class" : "SamePrefix"
+        ],
+        [
+            "title" : "重复整数",
+            "class" : "SameNum"
+        ],
+        [
+            "title" : "替换字符串空格",
+            "class" : "ReplaceBlank"
+        ],
+        
+        
         
     ];
     
@@ -70,7 +84,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "2333");
-        cell?.textLabel?.text = array[indexPath.row]["title"]!;
+        cell?.textLabel?.text = String(indexPath.row+1) + "：" + array[indexPath.row]["title"]!;
         return cell!;
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

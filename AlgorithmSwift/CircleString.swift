@@ -95,7 +95,7 @@ class CircleString: BaseViewController {
             
             if len > maxLen {
                 maxLen = len;
-                //因为两侧对称，i为字符中心位置，所以i两侧的字符长度相等，所以此回文的起点为 i （减去长度 -1 除以2）
+                //因为两侧对称，i为字符中心位置，所以i两侧的字符长度相等，所以此回文的起点为 i -（len -1）/2
                 left = i - (len-1) / 2;
             }
         }
