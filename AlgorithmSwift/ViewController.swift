@@ -61,6 +61,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             "title" : "二维数组中查找",
             "class" : "FindNumberIn2DArray"
         ],
+        [
+            "title" : "三数之和",
+            "class" : "ThereSum"
+        ],
+        
 
     ];
     

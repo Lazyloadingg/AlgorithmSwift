@@ -29,6 +29,7 @@
 		A45AEFD9279908BC0002E3D4 /* SamePrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFD8279908BC0002E3D4 /* SamePrefix.swift */; };
 		A45AEFDB27994D480002E3D4 /* SameNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFDA27994D480002E3D4 /* SameNum.swift */; };
 		A45AEFDD27995E840002E3D4 /* ReplaceBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFDC27995E840002E3D4 /* ReplaceBlank.swift */; };
+		A45AEFE5279E86640002E3D4 /* ThereSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFE4279E86640002E3D4 /* ThereSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		A45AEFD8279908BC0002E3D4 /* SamePrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamePrefix.swift; sourceTree = "<group>"; };
 		A45AEFDA27994D480002E3D4 /* SameNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameNum.swift; sourceTree = "<group>"; };
 		A45AEFDC27995E840002E3D4 /* ReplaceBlank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceBlank.swift; sourceTree = "<group>"; };
+		A45AEFE4279E86640002E3D4 /* ThereSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThereSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				A45AEFDA27994D480002E3D4 /* SameNum.swift */,
 				A45AEFDC27995E840002E3D4 /* ReplaceBlank.swift */,
 				962BFE3F2799AC24006A7910 /* FindNumberIn2DArray.swift */,
+				A45AEFE4279E86640002E3D4 /* ThereSum.swift */,
 				96185FEB27943BDA00E5B218 /* Main.storyboard */,
 				96185FEE27943BDC00E5B218 /* Assets.xcassets */,
 				96185FF027943BDC00E5B218 /* LaunchScreen.storyboard */,
@@ -311,6 +314,7 @@
 				966F77092795B39900DC61F2 /* RepetStringLength.swift in Sources */,
 				A45AEFD127953A760002E3D4 /* ReversalString.swift in Sources */,
 				9618604E279441A800E5B218 /* Sqrt.swift in Sources */,
+				A45AEFE5279E86640002E3D4 /* ThereSum.swift in Sources */,
 				962BFE3E279855D5006A7910 /* reverseNum.swift in Sources */,
 				A45AEFD9279908BC0002E3D4 /* SamePrefix.swift in Sources */,
 			);
