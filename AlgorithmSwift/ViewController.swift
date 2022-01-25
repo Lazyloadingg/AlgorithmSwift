@@ -65,6 +65,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             "title" : "三数之和",
             "class" : "ThereSum"
         ],
+        [
+            "title" : "数组排序",
+            "class" : "ArraySort"
+        ],
         
 
     ];
