@@ -14,45 +14,50 @@ class ThereSum: BaseViewController {
 
         let arr = [3,1,2,5,123,56,0,4,19];
         
-        print(fastSort(nums: arr));
         
+        print(threeSum(nums: arr, target: 60));
         
     }
     
-    
-    func fastSort(nums:[Int]) -> [Int]{
+    func threeSum(nums:[Int],target : Int) -> [Any] {
+        if nums.count < 3 {
+            return [];
+        }
+        let temp = ArraySort();
+        let newArray = temp.insertSort(nums: nums);
+        print(newArray);
+        var result = [Int]();
         
-        var newArr = nums;
-        var left = 0;
-        var right = newArr.count - 1;
-        var current = newArr[left];
-        
-        if left < right {
-         
-            while current < newArr[right] && left < right {
-                right -= 1;
-                if left < right {
-                    left += 1;
-                    newArr[left] = newArr[right];
-                }
+        for index in 0..<newArray.count - 1 {
+            
+            if newArray[index] > 0 {
+                return result;
             }
             
-            while current > newArr[left] && left < right {
-                left+=1;
-                if left < right {
-                    right-=1;
-                    newArr[right] = newArr[left];
-                }
+            var left = index+1;
+            var right = newArray.count - 1;
+            
+            while left < right {
+//                
+//                if newArray[index] + newArray[left] + newArray[right] == 0 {
+//                    
+//                }else if(){
+//                    
+//                }
+                
+                
             }
-            
-            newArr[left] = current;
-            
-//            fastSort(nums: <#T##[Int]#>)
             
             
         }
         
+   
         
-        return newArr;
+        return result;
+        
+        
     }
+    
+    
+    
 }
