@@ -69,8 +69,12 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             "title" : "数组排序",
             "class" : "ArraySort"
         ],
+        [
+            "title" : "最接近三数之和",
+            "class" : "NearThreeSum"
+        ],
         
-
+        
     ];
     
     lazy var tableView: UITableView = {

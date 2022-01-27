@@ -13,7 +13,7 @@ class CircleString: BaseViewController {
         super.viewDidLoad()
         
         //    https://leetcode-cn.com/classic/problems/longest-palindromic-substring/description/
-        //    最长回文子串，回文就是正反着读都一样，比如
+        //    最长回文子串，回文就是正反着读都一样，比如"ababa",
         let test = [
             "ababa",
             "aa",
