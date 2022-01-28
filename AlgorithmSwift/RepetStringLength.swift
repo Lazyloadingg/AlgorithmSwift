@@ -12,6 +12,7 @@ class RepetStringLength: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //    https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
+        //最长不重复字符
         let test = [
             "abcabcdbb",
             "pwwkew",

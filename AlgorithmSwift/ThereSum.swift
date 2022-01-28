@@ -8,10 +8,10 @@
 import UIKit
 
 class ThereSum: BaseViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // https://leetcode-cn.com/problems/3sum/
         let arr = [-5,-2,0,-7,3,1,2,5,123,56,0,4,19];
         let arr1 = [-1, 0, 1, 2, -1, -4];
@@ -52,29 +52,31 @@ class ThereSum: BaseViewController {
             var right = newArray.count - 1;
             
             while left < right {
+                
                 let sum = newArray[index] + newArray[left] + newArray[right];
                 if  sum == target {
-                    
+                    //6. 如果三数之和与目标值相等，则记录这组数字
                     result.append([newArray[index],newArray[left],newArray[right]]);
-//                    while left < right && newArray[left] == newArray[left+1] {
-//                        left += 1;
-//                    }
-//                    while left < right && newArray[right] == newArray[right-1] {
-//                        right -= 1;
-//                    }
+                    //                    while left < right && newArray[left] == newArray[left+1] {
+                    //                        left += 1;
+                    //                    }
+                    //                    while left < right && newArray[right] == newArray[right-1] {
+                    //                        right -= 1;
+                    //                    }
                     
-                    
+                    //7. 继续移动指针计算
                     right -= 1;
                     left += 1;
                 }else if(sum > target){
+                    //8. 因为是已经排序的数组，左侧数字一定小于等于右侧数字，那么如果和大于目标值，则向左移动右指针，新的和就会比原来的和更接近目标值
                     right -= 1;
                 }else{
+                    //9. 因为是已经排序的数组，左侧数字一定小于等于右侧数字，那么如果和小于目标值，则向右移动左指针，新的和就会比原来的和更接近目标值
                     left += 1;
                 }
-                
             }
         }
         return result;
     }
-
+    
 }

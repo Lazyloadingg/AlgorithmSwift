@@ -32,6 +32,7 @@
 		A45AEFE5279E86640002E3D4 /* ThereSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFE4279E86640002E3D4 /* ThereSum.swift */; };
 		A4B69E07279F90680010C164 /* ArraySort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B69E06279F90680010C164 /* ArraySort.swift */; };
 		A4B69E0927A285C90010C164 /* NearThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B69E0827A285C90010C164 /* NearThreeSum.swift */; };
+		A4B69E0B27A3884F0010C164 /* StringMapNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B69E0A27A3884F0010C164 /* StringMapNum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		A45AEFE4279E86640002E3D4 /* ThereSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThereSum.swift; sourceTree = "<group>"; };
 		A4B69E06279F90680010C164 /* ArraySort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySort.swift; sourceTree = "<group>"; };
 		A4B69E0827A285C90010C164 /* NearThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearThreeSum.swift; sourceTree = "<group>"; };
+		A4B69E0A27A3884F0010C164 /* StringMapNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringMapNum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				A45AEFE4279E86640002E3D4 /* ThereSum.swift */,
 				A4B69E06279F90680010C164 /* ArraySort.swift */,
 				A4B69E0827A285C90010C164 /* NearThreeSum.swift */,
+				A4B69E0A27A3884F0010C164 /* StringMapNum.swift */,
 				96185FEB27943BDA00E5B218 /* Main.storyboard */,
 				96185FEE27943BDC00E5B218 /* Assets.xcassets */,
 				96185FF027943BDC00E5B218 /* LaunchScreen.storyboard */,
@@ -316,6 +319,7 @@
 				A45AEFD72796630D0002E3D4 /* CircleString.swift in Sources */,
 				96185FE627943BDA00E5B218 /* AppDelegate.swift in Sources */,
 				A45AEFD527955EEA0002E3D4 /* TwoNumberSum.swift in Sources */,
+				A4B69E0B27A3884F0010C164 /* StringMapNum.swift in Sources */,
 				962BFE402799AC24006A7910 /* FindNumberIn2DArray.swift in Sources */,
 				966F77092795B39900DC61F2 /* RepetStringLength.swift in Sources */,
 				A4B69E0927A285C90010C164 /* NearThreeSum.swift in Sources */,

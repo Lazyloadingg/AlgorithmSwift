@@ -11,9 +11,10 @@ class NearThreeSum: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //求哪三个数的和与目标值最接近
+        //    https://leetcode-cn.com/problems/3sum-closest/
+        //求哪三个数的和与目标值最接近，这个题目与三数之和类似 甚至更简单点 思路都是一样的，
         let arr =  [-1,2,1,-4];
-        print(test(nums: arr, target: 1));
+        print("目标值：1\n结果值：\(test(nums: arr, target: 1))");
     }
     
     func test(nums:[Int],target:Int) -> Int {

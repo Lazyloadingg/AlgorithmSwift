@@ -73,8 +73,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             "title" : "最接近三数之和",
             "class" : "NearThreeSum"
         ],
-        
-        
+        [
+            "title" : "电话号码的字母组合",
+            "class" : "StringMapNum"
+        ],
     ];
     
     lazy var tableView: UITableView = {
