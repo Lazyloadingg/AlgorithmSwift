@@ -12,7 +12,7 @@ class StringMapNum: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        数字对应的字母的组合
+//        电话号码的字母组合
         print(test(s: "35"))
         
     }
