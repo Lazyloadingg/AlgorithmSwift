@@ -29,7 +29,7 @@
 		A45AEFD9279908BC0002E3D4 /* SamePrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFD8279908BC0002E3D4 /* SamePrefix.swift */; };
 		A45AEFDB27994D480002E3D4 /* SameNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFDA27994D480002E3D4 /* SameNum.swift */; };
 		A45AEFDD27995E840002E3D4 /* ReplaceBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFDC27995E840002E3D4 /* ReplaceBlank.swift */; };
-		A45AEFE5279E86640002E3D4 /* ThereSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFE4279E86640002E3D4 /* ThereSum.swift */; };
+		A45AEFE5279E86640002E3D4 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEFE4279E86640002E3D4 /* ThreeSum.swift */; };
 		A4B69E07279F90680010C164 /* ArraySort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B69E06279F90680010C164 /* ArraySort.swift */; };
 		A4B69E0927A285C90010C164 /* NearThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B69E0827A285C90010C164 /* NearThreeSum.swift */; };
 		A4B69E0B27A3884F0010C164 /* StringMapNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B69E0A27A3884F0010C164 /* StringMapNum.swift */; };
@@ -79,7 +79,7 @@
 		A45AEFD8279908BC0002E3D4 /* SamePrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamePrefix.swift; sourceTree = "<group>"; };
 		A45AEFDA27994D480002E3D4 /* SameNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameNum.swift; sourceTree = "<group>"; };
 		A45AEFDC27995E840002E3D4 /* ReplaceBlank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceBlank.swift; sourceTree = "<group>"; };
-		A45AEFE4279E86640002E3D4 /* ThereSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThereSum.swift; sourceTree = "<group>"; };
+		A45AEFE4279E86640002E3D4 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		A4B69E06279F90680010C164 /* ArraySort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySort.swift; sourceTree = "<group>"; };
 		A4B69E0827A285C90010C164 /* NearThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearThreeSum.swift; sourceTree = "<group>"; };
 		A4B69E0A27A3884F0010C164 /* StringMapNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringMapNum.swift; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 				A45AEFDA27994D480002E3D4 /* SameNum.swift */,
 				A45AEFDC27995E840002E3D4 /* ReplaceBlank.swift */,
 				962BFE3F2799AC24006A7910 /* FindNumberIn2DArray.swift */,
-				A45AEFE4279E86640002E3D4 /* ThereSum.swift */,
+				A45AEFE4279E86640002E3D4 /* ThreeSum.swift */,
 				A4B69E06279F90680010C164 /* ArraySort.swift */,
 				A4B69E0827A285C90010C164 /* NearThreeSum.swift */,
 				A4B69E0A27A3884F0010C164 /* StringMapNum.swift */,
@@ -326,7 +326,7 @@
 				A45AEFD127953A760002E3D4 /* ReversalString.swift in Sources */,
 				A4B69E07279F90680010C164 /* ArraySort.swift in Sources */,
 				9618604E279441A800E5B218 /* Sqrt.swift in Sources */,
-				A45AEFE5279E86640002E3D4 /* ThereSum.swift in Sources */,
+				A45AEFE5279E86640002E3D4 /* ThreeSum.swift in Sources */,
 				962BFE3E279855D5006A7910 /* reverseNum.swift in Sources */,
 				A45AEFD9279908BC0002E3D4 /* SamePrefix.swift in Sources */,
 			);

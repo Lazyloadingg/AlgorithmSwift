@@ -66,23 +66,23 @@ class StringMapNum: BaseViewController {
     }
     
     //MARK: test1
-    func test1(s:String) -> [String] {
-        
-        let resource = makeResource(s: s);
-        
-        
-        
-        
-    }
-    
-    func addLetter1(result : [String],str:[String]) -> [String] {
-        
-        
-        for s in str {
-            addLetter1(result: <#T##[String]#>, str: <#T##[String]#>)
-        }
-        
-    }
+//    func test1(s:String) -> [String] {
+//        
+//        let resource = makeResource(s: s);
+//        
+//        
+//        
+//        
+//    }
+//    
+//    func addLetter1(result : [String],str:[String]) -> [String] {
+//        
+//        
+//        for s in str {
+////            addLetter1(result: <#T##[String]#>, str: <#T##[String]#>)
+//        }
+//        
+//    }
 
 
 }

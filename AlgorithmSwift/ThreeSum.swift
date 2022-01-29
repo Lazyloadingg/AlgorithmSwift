@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ThereSum: BaseViewController {
+class ThreeSum: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,7 @@ class ThereSum: BaseViewController {
     func threeSum(nums:[Int],target : Int) -> [Any] {
         
         
-        /**   本地是两数之和的扩展，不过更复杂一点，我们可以固定一个数然后去查找另外两个数，但这样太麻烦，如果我们把数组变成有序的，那么我们就可以通过双指针的方式进行查找
+        /**   本题是两数之和的扩展，不过更复杂一点，我们可以固定一个数然后去查找另外两个数，但这样太麻烦，如果我们把数组变成有序的，那么我们就可以通过双指针的方式进行查找
          */
         if nums.count < 3 {
             return [];

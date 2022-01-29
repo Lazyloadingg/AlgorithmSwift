@@ -63,7 +63,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         ],
         [
             "title" : "三数之和",
-            "class" : "ThereSum"
+            "class" : "ThreeSum"
         ],
         [
             "title" : "数组排序",
