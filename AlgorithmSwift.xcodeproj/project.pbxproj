@@ -33,6 +33,7 @@
 		A4B69E07279F90680010C164 /* ArraySort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B69E06279F90680010C164 /* ArraySort.swift */; };
 		A4B69E0927A285C90010C164 /* NearThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B69E0827A285C90010C164 /* NearThreeSum.swift */; };
 		A4B69E0B27A3884F0010C164 /* StringMapNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B69E0A27A3884F0010C164 /* StringMapNum.swift */; };
+		A4B69E0D27B0F50D0010C164 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B69E0C27B0F50C0010C164 /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		A4B69E06279F90680010C164 /* ArraySort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySort.swift; sourceTree = "<group>"; };
 		A4B69E0827A285C90010C164 /* NearThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearThreeSum.swift; sourceTree = "<group>"; };
 		A4B69E0A27A3884F0010C164 /* StringMapNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringMapNum.swift; sourceTree = "<group>"; };
+		A4B69E0C27B0F50C0010C164 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				A4B69E06279F90680010C164 /* ArraySort.swift */,
 				A4B69E0827A285C90010C164 /* NearThreeSum.swift */,
 				A4B69E0A27A3884F0010C164 /* StringMapNum.swift */,
+				A4B69E0C27B0F50C0010C164 /* ListNode.swift */,
 				96185FEB27943BDA00E5B218 /* Main.storyboard */,
 				96185FEE27943BDC00E5B218 /* Assets.xcassets */,
 				96185FF027943BDC00E5B218 /* LaunchScreen.storyboard */,
@@ -323,6 +326,7 @@
 				962BFE402799AC24006A7910 /* FindNumberIn2DArray.swift in Sources */,
 				966F77092795B39900DC61F2 /* RepetStringLength.swift in Sources */,
 				A4B69E0927A285C90010C164 /* NearThreeSum.swift in Sources */,
+				A4B69E0D27B0F50D0010C164 /* ListNode.swift in Sources */,
 				A45AEFD127953A760002E3D4 /* ReversalString.swift in Sources */,
 				A4B69E07279F90680010C164 /* ArraySort.swift in Sources */,
 				9618604E279441A800E5B218 /* Sqrt.swift in Sources */,

@@ -77,6 +77,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             "title" : "电话号码的字母组合",
             "class" : "StringMapNum"
         ],
+        [
+            "title" : "链表操作",
+            "class" : "ListNode"
+        ],
+        
     ];
     
     lazy var tableView: UITableView = {
