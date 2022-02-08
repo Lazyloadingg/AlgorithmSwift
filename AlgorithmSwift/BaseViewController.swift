@@ -7,23 +7,48 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
-
+class BaseViewController: UIViewController,UITableViewDelegate,UITableViewDataSource  {
+    var array : [[String:String]] = []
+    lazy var tableView: UITableView = {
+        let tableView = UITableView.init(frame: view.bounds);
+        tableView.delegate = self;
+        tableView.dataSource = self;
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "2333");
+        return tableView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white;
-        // Do any additional setup after loading the view.
+        
+        self.loadDefaultSetting();
+        self.initSubViews();
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return array.count;
     }
-    */
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "2333");
+        cell?.textLabel?.text = String(indexPath.row+1) + "：" + array[indexPath.row]["title"]!;
+        return cell!;
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true);
+        let controllerName = array[indexPath.row]["class"]!;
+        let projectName = Bundle.main.infoDictionary!["CFBundleExecutable"] as? String
+        let className = projectName! + "." + controllerName
+        let vc = NSClassFromString(className) as! UIViewController.Type
+        let viewController = vc.init()
+        self.navigationController?.pushViewController(viewController, animated: true)
+
+    }
+    
+    func loadDefaultSetting()  {
+    }
+    func initSubViews()  {
+        self.view.addSubview(self.tableView);
+    }
+
 
 }

@@ -33,6 +33,7 @@ class ThreeSum: BaseViewController {
         if nums.count < 3 {
             return [];
         }
+        
         let temp = ArraySort();
         //1. 排序数组
         let newArray = temp.insertSort(nums: nums);
