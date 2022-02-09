@@ -41,6 +41,11 @@ class ArrayController: BaseViewController {
                 "title" : "矩阵中的路径",
                 "class" : "ArrayPathController"
             ],
+            [
+                "title" : "机器人的运动格子",
+                "class" : "RobotPathController"
+            ],
+            
             
         ]
     }

@@ -25,11 +25,11 @@ class ArrayPathController: BaseViewController {
         //测试用例
         let arr = [
             "ABCCED",
-            "ASFD",
-            "CCEDA",
-            "EAFD",
-            "SCEE",
-            "SES"
+//            "ASFD",
+//            "CCEDA",
+//            "EAFD",
+//            "SCEE",
+//            "SES"
         ]
         
         for str in arr {
@@ -87,14 +87,14 @@ class ArrayPathController: BaseViewController {
         var res = false;
         //5. 将已经找到的值替换成特殊字符作为已经找到的标记，防止重复检索，我此处用空格代替，可以使用任何字符，只要保证不会与目标字符相等且数组中没有重复值即可
         temp[x][y] = "  ";
-        //6. 递归检索
+        //6. 递归检索，四条路径，因为要对目标的上下左右进行检索
         res =
         recursion(arr: temp, target: target, row: row, col: col, x: x+1, y: y, k: k+1) ||
         recursion(arr: temp, target: target, row: row, col: col, x: x, y: y+1, k: k+1) ||
-        recursion(arr: temp, target: target, row: row, col: col, x: x-1, y: y, k: k+1) ||
+        recursion(arr: temp, target: target, row: row, col: col, x: x-1, y: y, k: k+1)  ||
         recursion(arr: temp, target: target, row: row, col: col, x: x, y: y-1, k: k+1)
         
-        //7. 如果没有找到，将第五步替换的特殊字符换回去，恢复原数组（为什么此处会确定没找到，因为如果找到的话第四步就已经返回不会来到这里，来到这里说明未找到）
+        //7. 如果某一条路径没有找到，将第五步替换的特殊字符换回去，恢复原数组（为什么此处会确定没找到，因为如果找到的话第四步就已经返回不会来到这里，来到这里说明未找到）
         temp[x][y] = target[k];
         return res;
         

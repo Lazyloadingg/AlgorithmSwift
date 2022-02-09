@@ -39,6 +39,7 @@
 		A4C91F5227B23AAD00D91228 /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F5127B23AAD00D91228 /* OtherController.swift */; };
 		A4C91F5427B23AD100D91228 /* ListNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F5327B23AD100D91228 /* ListNodeController.swift */; };
 		A4C91F5627B361A000D91228 /* ArrayPathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F5527B361A000D91228 /* ArrayPathController.swift */; };
+		A4C91F5827B3B88E00D91228 /* RobotPathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F5727B3B88E00D91228 /* RobotPathController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		A4C91F5127B23AAD00D91228 /* OtherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherController.swift; sourceTree = "<group>"; };
 		A4C91F5327B23AD100D91228 /* ListNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNodeController.swift; sourceTree = "<group>"; };
 		A4C91F5527B361A000D91228 /* ArrayPathController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPathController.swift; sourceTree = "<group>"; };
+		A4C91F5727B3B88E00D91228 /* RobotPathController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotPathController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 				A4C91F2A27B2388C00D91228 /* NearThreeSum.swift */,
 				A4C91F2B27B2388C00D91228 /* SameNum.swift */,
 				A4C91F4F27B23A2400D91228 /* ArrayController.swift */,
+				A4C91F5727B3B88E00D91228 /* RobotPathController.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				A4C91F3D27B2388C00D91228 /* ArraySort.swift in Sources */,
 				A4C91F4527B2388C00D91228 /* JumpFloor.swift in Sources */,
 				961860502794430E00E5B218 /* BaseViewController.swift in Sources */,
+				A4C91F5827B3B88E00D91228 /* RobotPathController.swift in Sources */,
 				96185FEA27943BDA00E5B218 /* ViewController.swift in Sources */,
 				A4C91F4027B2388C00D91228 /* SameNum.swift in Sources */,
 				A4C91F3B27B2388C00D91228 /* ThreeSum.swift in Sources */,
