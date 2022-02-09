@@ -38,6 +38,7 @@
 		A4C91F5027B23A2400D91228 /* ArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F4F27B23A2400D91228 /* ArrayController.swift */; };
 		A4C91F5227B23AAD00D91228 /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F5127B23AAD00D91228 /* OtherController.swift */; };
 		A4C91F5427B23AD100D91228 /* ListNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F5327B23AD100D91228 /* ListNodeController.swift */; };
+		A4C91F5627B361A000D91228 /* ArrayPathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F5527B361A000D91228 /* ArrayPathController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		A4C91F4F27B23A2400D91228 /* ArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayController.swift; sourceTree = "<group>"; };
 		A4C91F5127B23AAD00D91228 /* OtherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherController.swift; sourceTree = "<group>"; };
 		A4C91F5327B23AD100D91228 /* ListNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNodeController.swift; sourceTree = "<group>"; };
+		A4C91F5527B361A000D91228 /* ArrayPathController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPathController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				A4C91F2627B2388C00D91228 /* ThreeSum.swift */,
+				A4C91F5527B361A000D91228 /* ArrayPathController.swift */,
 				A4C91F2727B2388C00D91228 /* FindNumberIn2DArray.swift */,
 				A4C91F2827B2388C00D91228 /* ArraySort.swift */,
 				A4C91F2927B2388C00D91228 /* TwoNumberSum.swift */,
@@ -358,6 +361,7 @@
 			files = (
 				A4C91F4227B2388C00D91228 /* reverseNum.swift in Sources */,
 				A4C91F4427B2388C00D91228 /* Sqrt.swift in Sources */,
+				A4C91F5627B361A000D91228 /* ArrayPathController.swift in Sources */,
 				A4C91F3F27B2388C00D91228 /* NearThreeSum.swift in Sources */,
 				A4C91F3E27B2388C00D91228 /* TwoNumberSum.swift in Sources */,
 				A4C91F4827B2388C00D91228 /* ReversalString.swift in Sources */,

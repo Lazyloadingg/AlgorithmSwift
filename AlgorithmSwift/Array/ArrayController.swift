@@ -37,6 +37,11 @@ class ArrayController: BaseViewController {
                 "title" : "最接近三数之和",
                 "class" : "NearThreeSum"
             ],
+            [
+                "title" : "矩阵中的路径",
+                "class" : "ArrayPathController"
+            ],
+            
         ]
     }
     
