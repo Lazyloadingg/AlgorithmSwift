@@ -45,8 +45,10 @@ class ArrayController: BaseViewController {
                 "title" : "机器人的运动格子",
                 "class" : "RobotPathController"
             ],
-            
-            
+            [
+                "title" : "八皇后",
+                "class" : "EightQueenController"
+            ],
         ]
     }
     

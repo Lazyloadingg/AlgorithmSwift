@@ -58,6 +58,7 @@ class ArrayPathController: BaseViewController {
          2. 如果找到，则将特定值变为目标值继续寻找，即重复第一步，
          */
         
+        
         // 编码
         // 1. 那么首先对二维数组进行遍历 ，取出每一个字符
         for index in 0..<arr.count {

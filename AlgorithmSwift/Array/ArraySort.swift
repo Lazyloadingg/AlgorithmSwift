@@ -129,9 +129,12 @@ class ArraySort: BaseViewController {
         var newArr = nums;
         var gap = newArr.count / 2;
         
+        //1: 外层循环代表拆分几次数组
         while gap > 0 {
+            //2: 此处遍历从gap开始的原因是，以gap为固定间隔拆分数组，那么第一个元素的位置就是从0开始偏移gap位
             for index in gap..<newArr.count {
                 var current = index;
+                //3. 用当前元素和之前前边元素进行比较，交换
                 while current >= gap {
                     if newArr[current] < newArr[current-gap] {
                         let temp = newArr[current-gap];
