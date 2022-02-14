@@ -24,10 +24,10 @@ class RobotPathController: BaseViewController {
         //正确答案：35 15 9 答案135个
         //正确答案：20 20 9 答案145个
         
-        print("深度递归\(movingCount(m, n, k))")
-        print("广度队列\(bfs(m: m, n: n, k: k))");
-        print("深度栈\(dfsStack(m: m, n: n, x: 0, y: 0, k: k))")
-        print("递推\(recurrence(m, n, k))")
+        print("深度递归：\(movingCount(m, n, k))")
+        print("广度队列：\(bfs(m: m, n: n, k: k))");
+        print("深度栈：\(dfsStack(m: m, n: n, x: 0, y: 0, k: k))")
+        print("递推：\(recurrence(m, n, k))")
     }
     
     func movingCount(_ m:Int,_ n:Int,_ k:Int) -> Int {
@@ -43,7 +43,7 @@ class RobotPathController: BaseViewController {
         return count;
     }
     
-    //深度优先搜索 递归实现
+    //MARK: 深度优先 递归实现
     func dfsRecursive(m:Int,n:Int, x:Int,y:Int, k:Int,visit : inout [[Bool]])  {
         
         if x<0 || x >= m || y<0 || y >= n  || ( visit[x][y] == true) {
@@ -61,57 +61,54 @@ class RobotPathController: BaseViewController {
         //每个点都检索他的右侧，下侧
         dfsRecursive(m: m, n: n, x: x+1, y: y, k: k,visit: &visit)
         dfsRecursive(m: m, n: n, x: x, y: y+1, k: k, visit: &visit)
-//        dfsRecursive(m: m, n: n, x: x-1, y: y, k: k, visit: &visit)
-//        dfsRecursive(m: m, n: n, x: x, y: y-1, k: k, visit: &visit)
+        //        dfsRecursive(m: m, n: n, x: x-1, y: y, k: k, visit: &visit)
+        //        dfsRecursive(m: m, n: n, x: x, y: y-1, k: k, visit: &visit)
         
         return ;
     }
     
     
+    /**
+     深度优先搜索步骤
+     //1.从一个起始元素开始
+     //2.查找所有和起始元素直接相连的元素，记录下来，
+     //3.选择已记录的最后一个元素作为起始元素，重复第二步
+     //4.如果没有直接相连的元素，则移除最后一个元素重复第二步
+     
+     通过上边步骤我们可知道此步骤符合栈的特点，后进先出
+     */
+    //MARK: 深度优先（栈实现）
     func dfsStack(m:Int,n:Int, x:Int,y:Int, k:Int)->Int {
         
+        //1. 根据mn范围，创建一个空二维数组，用来代表每个坐标，并将访问过的每个区域标记true
         var visit : [[Bool]] = Array.init(repeating: Array.init(repeating: false, count: n), count: m)
         var count = 0
-//        var stack = [[Int]]();
-//        stack.append([0,0])
-//        while !stack.isEmpty {
-//            let first = stack.last;
-//            let x = first![0];
-//            let y = first![1];
-//            if x<0 || x >= m || y<0 || y >= n  || ( visit[x][y] == true) || (sums(x) + sums(y) > k) {
-//                continue;
-//            }
-//            count += 1;
-//            visit[x][y] = true;
-//            for <#item#> in <#items#> {
-//                <#code#>
-//            }
-//
-//        }
-        visit[0][0] = true;
-        for x in 0..<m {
-            for y in 0..<n {
-                if (sums(x) + sums(y) > k) {
-                    continue;
-                }
-                if x >= 1 {
-                    visit[x][y] = visit[x][y] || visit[x-1][y];
-                }
-                if y >= 1 {
-                    visit[x][y] = visit[x][y] || visit[x][y-1];
-                }
-                if visit[x][y] {
-                    count += 1;
-                }
+        //创建一个栈
+        var stack = [[Int]]();
+        //添加起始元素作为起点
+        stack.append([0,0])
+        while !stack.isEmpty {
+            //取出记录的最后一个元素
+            let first = stack.last;
+            //移除最后一个元素，继续遍历
+            stack.removeLast()
+            let x = first![0];
+            let y = first![1];
+            if x<0 || x >= m || y<0 || y >= n  || ( visit[x][y] == true) || (sums(x) + sums(y) > k) {
+                continue;
             }
+            count += 1;
+            visit[x][y] = true;
+            //将最后一个元素直接相连的元素作为备用节点加入栈
+            stack.append([x,y+1])
+            stack.append([x+1,y])
+            
         }
-        
-        
         return count;
     }
     
     
-    /// 找规律递推法
+    //MARK: 找规律递推法
     func recurrence(_ m:Int,_ n:Int, _ k:Int) -> Int {
         //通过分析可以找到规律，每一个可达的点，都可以通过它左侧或者上侧的点到达，如果不能通过左侧或上侧到达则此坐标点不可达
         var visit : [[Bool]] = Array.init(repeating: Array.init(repeating: false, count: n), count: m)
@@ -146,9 +143,11 @@ class RobotPathController: BaseViewController {
      //1.从一个起始元素开始
      //2.查找所有和起始元素直接相连的元素，记录下来，并移除起始元素
      //3.然后依次取出记录的元素，重复开始第一步，直到符合条件
+     
+     通过上边步骤我们可知道此步骤符合队列的特点，先进先出
      */
     
-    //:广度优先搜索（队列实现）
+    //MARK: 广度优先搜索（队列实现）
     func bfs(m:Int,n:Int, k:Int) -> Int{
         if m<=0 || n<=0 || k<0{
             return -1;
@@ -158,7 +157,7 @@ class RobotPathController: BaseViewController {
         var count = 0;
         //1. 根据mn范围，创建一个空二维数组，用来代表每个坐标，并将访问过的每个区域标记true
         var visit : [[Bool]] = Array.init(repeating: Array.init(repeating: false, count: n), count: m)
-
+        
         //添加起点坐标为第一个元素
         queue.append([0,0])
         while !queue.isEmpty {
@@ -176,7 +175,7 @@ class RobotPathController: BaseViewController {
             count += 1;
             //并将当前元素位置标记为已访问
             visit[x][y] = true;
-//            print([x,y])
+            //            print([x,y])
             //且将当前元素右侧和下侧元素加入队列，继续遍历
             queue.append([x+1,y])
             queue.append([x,y+1])
