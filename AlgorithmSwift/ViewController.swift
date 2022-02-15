@@ -26,6 +26,10 @@ class ViewController: BaseViewController{
                 "class" : "ListNodeController"
             ],
             [
+                "title" : "数学操作",
+                "class" : "MathController"
+            ],
+            [
                 "title" : "其他操作",
                 "class" : "OtherController"
             ],
