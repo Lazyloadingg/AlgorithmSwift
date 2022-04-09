@@ -163,19 +163,30 @@ class ListNode: BaseViewController {
         
     }
     
-    func reversePrint(_ head : listnode<Int>) -> [Any] {
+//    func reversePrint(_ head : listnode<Int>?) -> [Any] {
+//
+//        var p = head;
+//        var result : [Int] = [Int]();
+//        while p != nil {
+//            result.insert(p!.val!,at: 0);
+//            p = p!.next;
+//        }
+//        return result;
+//    }
+    
+    func reversePrint(_ head : listnode<Int>?) -> [Any] {
         
         var p = head;
-        var result = [Int]();
-        
+        var temp : [Int] = [Int]();
         while p != nil {
-            result.insert(p.val!,at: 0);
-            if p.next != nil {
-                p = p.next!;
-            }else{
-                break;
-            }
+            temp.append(p!.val!);
+            p = p!.next;
+        }
+        var result : [Int] = [Int]();
+        for item in (0..<temp.count).reversed() {
+            result.append(temp[item])
         }
         return result;
     }
+    
 }
