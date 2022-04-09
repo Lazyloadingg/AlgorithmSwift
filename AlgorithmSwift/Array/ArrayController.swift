@@ -49,6 +49,11 @@ class ArrayController: BaseViewController {
                 "title" : "八皇后",
                 "class" : "EightQueenController"
             ],
+            [
+                "title" : "无序数组中位数",
+                "class" : "ArrayMedianController"
+            ],
+            
         ]
     }
     
