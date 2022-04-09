@@ -13,11 +13,10 @@ class ArrayMedianController: BaseViewController {
         super.viewDidLoad()
         //无序数组的中位数
         let arr = [4,0,1,2,9,8,3,7,10];
-        
         print(arr);
-        
         print(arr.sorted());
-        print(test(arr: arr));
+        print("-----------------")
+        print("排序：\(test(arr: arr))");
     }
     func test(arr : [Int]) -> Double {
         var result = 0.0;
@@ -29,6 +28,7 @@ class ArrayMedianController: BaseViewController {
         }
         return result;
     }
+  
     
     
     // MARK: 👉🏻 🐷Life cycle🐷
