@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9610AEE32802A10700B5428F /* BinaryTreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9610AEE22802A10700B5428F /* BinaryTreeController.swift */; };
+		9610AEE52802A1D800B5428F /* Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9610AEE42802A1D800B5428F /* Traverse.swift */; };
 		96185FE627943BDA00E5B218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96185FE527943BDA00E5B218 /* AppDelegate.swift */; };
 		96185FEA27943BDA00E5B218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96185FE927943BDA00E5B218 /* ViewController.swift */; };
 		96185FED27943BDA00E5B218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96185FEB27943BDA00E5B218 /* Main.storyboard */; };
@@ -64,6 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9610AEE22802A10700B5428F /* BinaryTreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeController.swift; sourceTree = "<group>"; };
+		9610AEE42802A1D800B5428F /* Traverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traverse.swift; sourceTree = "<group>"; };
 		96185FE227943BDA00E5B218 /* AlgorithmSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96185FE527943BDA00E5B218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96185FE927943BDA00E5B218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +136,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9610AEE12802A0E400B5428F /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				9610AEE22802A10700B5428F /* BinaryTreeController.swift */,
+				9610AEE42802A1D800B5428F /* Traverse.swift */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
 		96185FD927943BDA00E5B218 = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +168,7 @@
 		96185FE427943BDA00E5B218 /* AlgorithmSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9610AEE12802A0E400B5428F /* BinaryTree */,
 				A4A9EB5B27BB520000D24A69 /* Math */,
 				A4C91F2527B2388C00D91228 /* Array */,
 				A4C91F3227B2388C00D91228 /* ListNode */,
@@ -395,7 +409,9 @@
 				A4C91F4527B2388C00D91228 /* JumpFloor.swift in Sources */,
 				961860502794430E00E5B218 /* BaseViewController.swift in Sources */,
 				A4C91F5827B3B88E00D91228 /* RobotPathController.swift in Sources */,
+				9610AEE52802A1D800B5428F /* Traverse.swift in Sources */,
 				96185FEA27943BDA00E5B218 /* ViewController.swift in Sources */,
+				9610AEE32802A10700B5428F /* BinaryTreeController.swift in Sources */,
 				A4C91F4027B2388C00D91228 /* SameNum.swift in Sources */,
 				A4C91F3B27B2388C00D91228 /* ThreeSum.swift in Sources */,
 				A4C91F4C27B2388C00D91228 /* RepetStringLength.swift in Sources */,

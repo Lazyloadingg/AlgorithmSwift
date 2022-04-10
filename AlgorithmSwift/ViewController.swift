@@ -26,6 +26,11 @@ class ViewController: BaseViewController{
                 "class" : "ListNodeController"
             ],
             [
+                "title" : "二叉树操作",
+                "class" : "BinaryTreeController"
+            ],
+            
+            [
                 "title" : "数学操作",
                 "class" : "MathController"
             ],
