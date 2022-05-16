@@ -57,6 +57,10 @@ class ArrayController: BaseViewController {
                 "title" : "接雨水",
                 "class" : "RainWater"
             ],
+            [
+                "title" : "无序数组中位数",
+                "class" : "ArrayMedianController"
+            ],
         ]
     }
     

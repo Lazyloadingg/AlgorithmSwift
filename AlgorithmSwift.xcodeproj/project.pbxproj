@@ -18,6 +18,7 @@
 		961860502794430E00E5B218 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618604F2794430E00E5B218 /* BaseViewController.swift */; };
 		A43C3D5F28309C9600A5B4C8 /* MostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C3D5E28309C9600A5B4C8 /* MostWater.swift */; };
 		A43C3D6128309D5900A5B4C8 /* RainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C3D6028309D5900A5B4C8 /* RainWater.swift */; };
+		A4480BF52832490800810822 /* ArrayMedianController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4480BF42832490800810822 /* ArrayMedianController.swift */; };
 		A4A9EB5A27B6544F00D24A69 /* EightQueenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9EB5927B6544F00D24A69 /* EightQueenController.swift */; };
 		A4A9EB5D27BB521400D24A69 /* MathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9EB5C27BB521400D24A69 /* MathController.swift */; };
 		A4A9EB5F27BB529E00D24A69 /* MaxDecimalNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9EB5E27BB529E00D24A69 /* MaxDecimalNumber.swift */; };
@@ -79,6 +80,7 @@
 		9618604F2794430E00E5B218 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A43C3D5E28309C9600A5B4C8 /* MostWater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostWater.swift; sourceTree = "<group>"; };
 		A43C3D6028309D5900A5B4C8 /* RainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainWater.swift; sourceTree = "<group>"; };
+		A4480BF42832490800810822 /* ArrayMedianController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayMedianController.swift; sourceTree = "<group>"; };
 		A4A9EB5927B6544F00D24A69 /* EightQueenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightQueenController.swift; sourceTree = "<group>"; };
 		A4A9EB5C27BB521400D24A69 /* MathController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathController.swift; sourceTree = "<group>"; };
 		A4A9EB5E27BB529E00D24A69 /* MaxDecimalNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDecimalNumber.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				A4C91F4F27B23A2400D91228 /* ArrayController.swift */,
 				A4C91F5727B3B88E00D91228 /* RobotPathController.swift */,
 				A4A9EB5927B6544F00D24A69 /* EightQueenController.swift */,
+				A4480BF42832490800810822 /* ArrayMedianController.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				A43C3D6128309D5900A5B4C8 /* RainWater.swift in Sources */,
 				A4A9EB5D27BB521400D24A69 /* MathController.swift in Sources */,
 				A4C91F3E27B2388C00D91228 /* TwoNumberSum.swift in Sources */,
+				A4480BF52832490800810822 /* ArrayMedianController.swift in Sources */,
 				A4C91F4827B2388C00D91228 /* ReversalString.swift in Sources */,
 				A4C91F3C27B2388C00D91228 /* FindNumberIn2DArray.swift in Sources */,
 				A4C91F4B27B2388C00D91228 /* CircleString.swift in Sources */,
