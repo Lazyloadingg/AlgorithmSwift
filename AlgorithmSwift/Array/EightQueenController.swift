@@ -53,7 +53,7 @@ class EightQueenController: BaseViewController {
             return;
         }
         
-        //横向遍历，max总列数
+        //横向遍历，max总列数，无论当前位置是否可以放置，都会继续向下遍历，直到检查完所有可能解
         for index in 0..<max {
             //依次将当前行皇后数放在第index列，检验是否可以放置
             visit[n] = index;

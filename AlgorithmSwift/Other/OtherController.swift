@@ -26,11 +26,6 @@ class OtherController: BaseViewController {
                 "title" : "两矩阵重叠面积",
                 "class" : "Area"
             ],
-       
-            [
-                "title" : "最大盛水量",
-                "class" : "MostWater"
-            ],
         
             [
                 "title" : "整数翻转",

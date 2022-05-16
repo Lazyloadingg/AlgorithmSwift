@@ -49,10 +49,15 @@ class ArrayController: BaseViewController {
                 "title" : "八皇后",
                 "class" : "EightQueenController"
             ],
+            [
+                "title" : "最大盛水量",
+                "class" : "MostWater"
+            ],
+            [
+                "title" : "接雨水",
+                "class" : "RainWater"
+            ],
         ]
     }
-    
-    
-    
     
 }

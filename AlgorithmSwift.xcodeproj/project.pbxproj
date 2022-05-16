@@ -16,6 +16,8 @@
 		9618600727943BDC00E5B218 /* AlgorithmSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618600627943BDC00E5B218 /* AlgorithmSwiftUITests.swift */; };
 		9618600927943BDC00E5B218 /* AlgorithmSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618600827943BDC00E5B218 /* AlgorithmSwiftUITestsLaunchTests.swift */; };
 		961860502794430E00E5B218 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618604F2794430E00E5B218 /* BaseViewController.swift */; };
+		A43C3D5F28309C9600A5B4C8 /* MostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C3D5E28309C9600A5B4C8 /* MostWater.swift */; };
+		A43C3D6128309D5900A5B4C8 /* RainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C3D6028309D5900A5B4C8 /* RainWater.swift */; };
 		A4A9EB5A27B6544F00D24A69 /* EightQueenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9EB5927B6544F00D24A69 /* EightQueenController.swift */; };
 		A4A9EB5D27BB521400D24A69 /* MathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9EB5C27BB521400D24A69 /* MathController.swift */; };
 		A4A9EB5F27BB529E00D24A69 /* MaxDecimalNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9EB5E27BB529E00D24A69 /* MaxDecimalNumber.swift */; };
@@ -25,7 +27,6 @@
 		A4C91F3E27B2388C00D91228 /* TwoNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F2927B2388C00D91228 /* TwoNumberSum.swift */; };
 		A4C91F3F27B2388C00D91228 /* NearThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F2A27B2388C00D91228 /* NearThreeSum.swift */; };
 		A4C91F4027B2388C00D91228 /* SameNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F2B27B2388C00D91228 /* SameNum.swift */; };
-		A4C91F4127B2388C00D91228 /* MostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F2D27B2388C00D91228 /* MostWater.swift */; };
 		A4C91F4227B2388C00D91228 /* reverseNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F2E27B2388C00D91228 /* reverseNum.swift */; };
 		A4C91F4327B2388C00D91228 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F2F27B2388C00D91228 /* Area.swift */; };
 		A4C91F4427B2388C00D91228 /* Sqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F3027B2388C00D91228 /* Sqrt.swift */; };
@@ -76,6 +77,8 @@
 		9618600627943BDC00E5B218 /* AlgorithmSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmSwiftUITests.swift; sourceTree = "<group>"; };
 		9618600827943BDC00E5B218 /* AlgorithmSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9618604F2794430E00E5B218 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A43C3D5E28309C9600A5B4C8 /* MostWater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostWater.swift; sourceTree = "<group>"; };
+		A43C3D6028309D5900A5B4C8 /* RainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainWater.swift; sourceTree = "<group>"; };
 		A4A9EB5927B6544F00D24A69 /* EightQueenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightQueenController.swift; sourceTree = "<group>"; };
 		A4A9EB5C27BB521400D24A69 /* MathController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathController.swift; sourceTree = "<group>"; };
 		A4A9EB5E27BB529E00D24A69 /* MaxDecimalNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDecimalNumber.swift; sourceTree = "<group>"; };
@@ -85,7 +88,6 @@
 		A4C91F2927B2388C00D91228 /* TwoNumberSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoNumberSum.swift; sourceTree = "<group>"; };
 		A4C91F2A27B2388C00D91228 /* NearThreeSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearThreeSum.swift; sourceTree = "<group>"; };
 		A4C91F2B27B2388C00D91228 /* SameNum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SameNum.swift; sourceTree = "<group>"; };
-		A4C91F2D27B2388C00D91228 /* MostWater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostWater.swift; sourceTree = "<group>"; };
 		A4C91F2E27B2388C00D91228 /* reverseNum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reverseNum.swift; sourceTree = "<group>"; };
 		A4C91F2F27B2388C00D91228 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		A4C91F3027B2388C00D91228 /* Sqrt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sqrt.swift; sourceTree = "<group>"; };
@@ -198,6 +200,8 @@
 		A4C91F2527B2388C00D91228 /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				A43C3D5E28309C9600A5B4C8 /* MostWater.swift */,
+				A43C3D6028309D5900A5B4C8 /* RainWater.swift */,
 				A4C91F2627B2388C00D91228 /* ThreeSum.swift */,
 				A4C91F5527B361A000D91228 /* ArrayPathController.swift */,
 				A4C91F2727B2388C00D91228 /* FindNumberIn2DArray.swift */,
@@ -215,7 +219,6 @@
 		A4C91F2C27B2388C00D91228 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				A4C91F2D27B2388C00D91228 /* MostWater.swift */,
 				A4C91F2E27B2388C00D91228 /* reverseNum.swift */,
 				A4C91F2F27B2388C00D91228 /* Area.swift */,
 				A4C91F3027B2388C00D91228 /* Sqrt.swift */,
@@ -383,6 +386,7 @@
 				A4C91F4427B2388C00D91228 /* Sqrt.swift in Sources */,
 				A4C91F5627B361A000D91228 /* ArrayPathController.swift in Sources */,
 				A4C91F3F27B2388C00D91228 /* NearThreeSum.swift in Sources */,
+				A43C3D6128309D5900A5B4C8 /* RainWater.swift in Sources */,
 				A4A9EB5D27BB521400D24A69 /* MathController.swift in Sources */,
 				A4C91F3E27B2388C00D91228 /* TwoNumberSum.swift in Sources */,
 				A4C91F4827B2388C00D91228 /* ReversalString.swift in Sources */,
@@ -399,7 +403,6 @@
 				A4A9EB5A27B6544F00D24A69 /* EightQueenController.swift in Sources */,
 				A4C91F5227B23AAD00D91228 /* OtherController.swift in Sources */,
 				A4C91F4627B2388C00D91228 /* ListNode.swift in Sources */,
-				A4C91F4127B2388C00D91228 /* MostWater.swift in Sources */,
 				A4A9EB5F27BB529E00D24A69 /* MaxDecimalNumber.swift in Sources */,
 				A4C91F4327B2388C00D91228 /* Area.swift in Sources */,
 				96185FE627943BDA00E5B218 /* AppDelegate.swift in Sources */,
@@ -408,6 +411,7 @@
 				A4C91F4E27B239A900D91228 /* StringController.swift in Sources */,
 				A4C91F5427B23AD100D91228 /* ListNodeController.swift in Sources */,
 				A4C91F4A27B2388C00D91228 /* ReplaceBlank.swift in Sources */,
+				A43C3D5F28309C9600A5B4C8 /* MostWater.swift in Sources */,
 				A4C91F5027B23A2400D91228 /* ArrayController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -594,6 +598,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -603,7 +608,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -621,6 +626,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -630,7 +636,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
