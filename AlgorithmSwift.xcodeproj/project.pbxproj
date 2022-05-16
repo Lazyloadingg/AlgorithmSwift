@@ -22,6 +22,7 @@
 		A4A9EB5A27B6544F00D24A69 /* EightQueenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9EB5927B6544F00D24A69 /* EightQueenController.swift */; };
 		A4A9EB5D27BB521400D24A69 /* MathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9EB5C27BB521400D24A69 /* MathController.swift */; };
 		A4A9EB5F27BB529E00D24A69 /* MaxDecimalNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9EB5E27BB529E00D24A69 /* MaxDecimalNumber.swift */; };
+		A4ADDA5E28327CCC00B2E8AE /* ReverseListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADDA5D28327CCC00B2E8AE /* ReverseListNode.swift */; };
 		A4C91F3B27B2388C00D91228 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F2627B2388C00D91228 /* ThreeSum.swift */; };
 		A4C91F3C27B2388C00D91228 /* FindNumberIn2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F2727B2388C00D91228 /* FindNumberIn2DArray.swift */; };
 		A4C91F3D27B2388C00D91228 /* ArraySort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F2827B2388C00D91228 /* ArraySort.swift */; };
@@ -32,7 +33,7 @@
 		A4C91F4327B2388C00D91228 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F2F27B2388C00D91228 /* Area.swift */; };
 		A4C91F4427B2388C00D91228 /* Sqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F3027B2388C00D91228 /* Sqrt.swift */; };
 		A4C91F4527B2388C00D91228 /* JumpFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F3127B2388C00D91228 /* JumpFloor.swift */; };
-		A4C91F4627B2388C00D91228 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F3327B2388C00D91228 /* ListNode.swift */; };
+		A4C91F4627B2388C00D91228 /* ListNodeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F3327B2388C00D91228 /* ListNodeAction.swift */; };
 		A4C91F4727B2388C00D91228 /* SamePrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F3527B2388C00D91228 /* SamePrefix.swift */; };
 		A4C91F4827B2388C00D91228 /* ReversalString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F3627B2388C00D91228 /* ReversalString.swift */; };
 		A4C91F4927B2388C00D91228 /* StringMapNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C91F3727B2388C00D91228 /* StringMapNum.swift */; };
@@ -84,6 +85,7 @@
 		A4A9EB5927B6544F00D24A69 /* EightQueenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightQueenController.swift; sourceTree = "<group>"; };
 		A4A9EB5C27BB521400D24A69 /* MathController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathController.swift; sourceTree = "<group>"; };
 		A4A9EB5E27BB529E00D24A69 /* MaxDecimalNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDecimalNumber.swift; sourceTree = "<group>"; };
+		A4ADDA5D28327CCC00B2E8AE /* ReverseListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseListNode.swift; sourceTree = "<group>"; };
 		A4C91F2627B2388C00D91228 /* ThreeSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		A4C91F2727B2388C00D91228 /* FindNumberIn2DArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindNumberIn2DArray.swift; sourceTree = "<group>"; };
 		A4C91F2827B2388C00D91228 /* ArraySort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraySort.swift; sourceTree = "<group>"; };
@@ -94,7 +96,7 @@
 		A4C91F2F27B2388C00D91228 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		A4C91F3027B2388C00D91228 /* Sqrt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sqrt.swift; sourceTree = "<group>"; };
 		A4C91F3127B2388C00D91228 /* JumpFloor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpFloor.swift; sourceTree = "<group>"; };
-		A4C91F3327B2388C00D91228 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		A4C91F3327B2388C00D91228 /* ListNodeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNodeAction.swift; sourceTree = "<group>"; };
 		A4C91F3527B2388C00D91228 /* SamePrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamePrefix.swift; sourceTree = "<group>"; };
 		A4C91F3627B2388C00D91228 /* ReversalString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReversalString.swift; sourceTree = "<group>"; };
 		A4C91F3727B2388C00D91228 /* StringMapNum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringMapNum.swift; sourceTree = "<group>"; };
@@ -234,8 +236,9 @@
 		A4C91F3227B2388C00D91228 /* ListNode */ = {
 			isa = PBXGroup;
 			children = (
-				A4C91F3327B2388C00D91228 /* ListNode.swift */,
+				A4C91F3327B2388C00D91228 /* ListNodeAction.swift */,
 				A4C91F5327B23AD100D91228 /* ListNodeController.swift */,
+				A4ADDA5D28327CCC00B2E8AE /* ReverseListNode.swift */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4C91F4227B2388C00D91228 /* reverseNum.swift in Sources */,
+				A4ADDA5E28327CCC00B2E8AE /* ReverseListNode.swift in Sources */,
 				A4C91F4427B2388C00D91228 /* Sqrt.swift in Sources */,
 				A4C91F5627B361A000D91228 /* ArrayPathController.swift in Sources */,
 				A4C91F3F27B2388C00D91228 /* NearThreeSum.swift in Sources */,
@@ -406,7 +410,7 @@
 				A4C91F4C27B2388C00D91228 /* RepetStringLength.swift in Sources */,
 				A4A9EB5A27B6544F00D24A69 /* EightQueenController.swift in Sources */,
 				A4C91F5227B23AAD00D91228 /* OtherController.swift in Sources */,
-				A4C91F4627B2388C00D91228 /* ListNode.swift in Sources */,
+				A4C91F4627B2388C00D91228 /* ListNodeAction.swift in Sources */,
 				A4A9EB5F27BB529E00D24A69 /* MaxDecimalNumber.swift in Sources */,
 				A4C91F4327B2388C00D91228 /* Area.swift in Sources */,
 				96185FE627943BDA00E5B218 /* AppDelegate.swift in Sources */,

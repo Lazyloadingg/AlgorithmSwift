@@ -23,7 +23,7 @@ class listnode<T:Equatable>{
     var val : T?;
     var next : listnode?;
     
-    init(_ value : T) {
+    init(_ value : T?) {
         self.val = value;
     }
     
@@ -140,7 +140,9 @@ class SingleList<T:Equatable> : LinkedListProtocol{
     
 }
 
-class ListNode: BaseViewController {
+
+
+class ListNodeAction: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -160,6 +162,7 @@ class ListNode: BaseViewController {
         print(list.linkedListPrint())
         print(list.count())
         print(reversePrint(list.head!));
+        print(reverseList(list)!.linkedListPrint())
         
     }
     
@@ -187,6 +190,22 @@ class ListNode: BaseViewController {
             result.append(temp[item])
         }
         return result;
+    }
+    
+    func reverseList(_ list : SingleList<Int>) -> SingleList<Int>? {
+        if list.head == nil || list.head?.next == nil {
+            return list;
+        }
+        var newHead = listnode<Int>.init(0);
+        
+        var p : listnode? = list.head;
+        while p  != nil{
+            let next = p!.next;
+            p!.next = newHead;
+            newHead = p!;
+            p = next;
+        }
+        return list;
     }
     
 }

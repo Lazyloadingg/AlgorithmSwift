@@ -15,7 +15,11 @@ class ListNodeController: BaseViewController {
         self.array = [
             [
                 "title" : "链表操作",
-                "class" : "ListNode"
+                "class" : "ListNodeAction"
+            ],
+            [
+                "title" : "链表反转",
+                "class" : "ReverseListNode"
             ],
         ];
     }
