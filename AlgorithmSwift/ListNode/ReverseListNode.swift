@@ -25,9 +25,24 @@ class ReverseListNode: BaseViewController {
             tmp.next = current;
             current = tmp;
         }
+        
+        let cur1 = ListNode();
+        var last : ListNode? = nil;
+        for index in 0..<10 {
+            let node = ListNode(index);
+            if last == nil {
+                last = node;
+                cur1.next = last;
+            }else{
+                last?.next = node;
+                last = node;
+            }
+        }
+        
         printNode(current);
-        let newHead = reverseList(current);
-        printNode(newHead);
+//        printNode(cur1);
+        printNode(reverseList(current));
+        printNode(reverseList1(current));
     }
     
     //迭代法
@@ -52,6 +67,27 @@ class ReverseListNode: BaseViewController {
         return newHead;
     }
     
+    //遍历
+    func reverseList1(_ head: ListNode?) -> ListNode? {
+        if head == nil || head?.next == nil {
+            return head;
+        }
+        
+        var cur = head;
+        var list = [Int]();
+        while cur != nil {
+            list.append(cur!.val);
+            cur = cur?.next;
+        }
+  
+        var newHead : ListNode? = nil;
+        for val in list {
+            let node = ListNode(val);
+            node.next = newHead;
+            newHead = node;
+        }
+        return newHead;
+    }
     
     func printNode(_ head : ListNode?)  {
         if head == nil {
