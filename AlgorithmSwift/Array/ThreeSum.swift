@@ -26,6 +26,24 @@ class ThreeSum: BaseViewController {
         print("四数之和：\(fourSum(nums: arr2, target: 0))");
     }
     
+    //回忆专用方法
+    func test(nums : [Int]) ->  [[Int]]{
+        
+        var result = [[Int]]();
+        var map = [Int:Int]();
+        let target = 0;
+        for index  in 0..<nums.count {
+            let tmp = target - nums[index];
+            if map.keys.contains(tmp) {
+                result.append([index,map[tmp]!])
+            }
+            map[nums[index]] = index;
+        }
+        
+        return result;
+    }
+    
+    
     func threeSum(nums:[Int],target : Int) -> [Any] {
         
         /**   本题是两数之和的扩展，不过更复杂一点，我们可以固定一个数然后去查找另外两个数，但这样太麻烦，如果我们把数组变成有序的，那么我们就可以通过双指针的方式进行查找

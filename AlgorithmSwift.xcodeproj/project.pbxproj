@@ -16,6 +16,7 @@
 		9618600727943BDC00E5B218 /* AlgorithmSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618600627943BDC00E5B218 /* AlgorithmSwiftUITests.swift */; };
 		9618600927943BDC00E5B218 /* AlgorithmSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618600827943BDC00E5B218 /* AlgorithmSwiftUITestsLaunchTests.swift */; };
 		961860502794430E00E5B218 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618604F2794430E00E5B218 /* BaseViewController.swift */; };
+		9682729D286B50AC00EE4499 /* Cumsum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9682729C286B50AC00EE4499 /* Cumsum.swift */; };
 		A43C3D5F28309C9600A5B4C8 /* MostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C3D5E28309C9600A5B4C8 /* MostWater.swift */; };
 		A43C3D6128309D5900A5B4C8 /* RainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C3D6028309D5900A5B4C8 /* RainWater.swift */; };
 		A4480BF52832490800810822 /* ArrayMedianController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4480BF42832490800810822 /* ArrayMedianController.swift */; };
@@ -79,6 +80,7 @@
 		9618600627943BDC00E5B218 /* AlgorithmSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmSwiftUITests.swift; sourceTree = "<group>"; };
 		9618600827943BDC00E5B218 /* AlgorithmSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9618604F2794430E00E5B218 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9682729C286B50AC00EE4499 /* Cumsum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cumsum.swift; sourceTree = "<group>"; };
 		A43C3D5E28309C9600A5B4C8 /* MostWater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostWater.swift; sourceTree = "<group>"; };
 		A43C3D6028309D5900A5B4C8 /* RainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainWater.swift; sourceTree = "<group>"; };
 		A4480BF42832490800810822 /* ArrayMedianController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayMedianController.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				A4C91F2A27B2388C00D91228 /* NearThreeSum.swift */,
 				A4C91F2B27B2388C00D91228 /* SameNum.swift */,
 				A4C91F4F27B23A2400D91228 /* ArrayController.swift */,
+				9682729C286B50AC00EE4499 /* Cumsum.swift */,
 				A4C91F5727B3B88E00D91228 /* RobotPathController.swift */,
 				A4A9EB5927B6544F00D24A69 /* EightQueenController.swift */,
 				A4480BF42832490800810822 /* ArrayMedianController.swift */,
@@ -417,6 +420,7 @@
 				A4C91F4927B2388C00D91228 /* StringMapNum.swift in Sources */,
 				A4C91F4727B2388C00D91228 /* SamePrefix.swift in Sources */,
 				A4C91F4E27B239A900D91228 /* StringController.swift in Sources */,
+				9682729D286B50AC00EE4499 /* Cumsum.swift in Sources */,
 				A4C91F5427B23AD100D91228 /* ListNodeController.swift in Sources */,
 				A4C91F4A27B2388C00D91228 /* ReplaceBlank.swift in Sources */,
 				A43C3D5F28309C9600A5B4C8 /* MostWater.swift in Sources */,

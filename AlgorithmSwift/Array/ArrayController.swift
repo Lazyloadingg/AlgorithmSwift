@@ -61,6 +61,11 @@ class ArrayController: BaseViewController {
                 "title" : "无序数组中位数",
                 "class" : "ArrayMedianController"
             ],
+            [
+                "title" : "目标数组指定区间累加和",
+                "class" : "Cumsum"
+            ],
+            
         ]
     }
     
