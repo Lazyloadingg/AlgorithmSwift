@@ -12,6 +12,7 @@ class FindNumberIn2DArray: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //查找二维数组中是否包含指定的值 二维数组特点 从左至右递增 从上往下递增
         let arr = [
             [1,   4,  7, 11, 15],
             [2,   5,  8, 12, 19],

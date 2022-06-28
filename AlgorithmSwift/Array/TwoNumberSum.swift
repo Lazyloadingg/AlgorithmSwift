@@ -19,6 +19,24 @@ class TwoNumberSum: BaseViewController {
         print("两数之和：\(method(nums: arr, target: target))");
         print("两数之和：\(method1(nums: arr, target: target))");
         print(twoSumOneHash(nums: arr, target: target));
+        print(test(nums: arr, target: target));
+    }
+    
+    //回忆专用方法
+    func test(nums : [Int],target:Int) -> [Int] {
+        if nums.count < 2 {
+            return [0];
+        }
+        var map = [Int:Int]();
+        for index in 0..<nums.count {
+            let tmp = target - nums[index]
+            if map.keys.contains(tmp) && map[tmp] != index{
+                return [index,map[tmp]!]
+            }else{
+                map[nums[index]] = index;
+            }
+        }
+        return [];
     }
     
     //暴力遍历法
@@ -35,7 +53,7 @@ class TwoNumberSum: BaseViewController {
         return [];
     }
     
-    //
+    //两次遍历
     func method1(nums : Array<Int>,target : Int) ->  [Int]{
         /**这种方法可能会产生疑问，用数组的元素作为map的key，那么数组元素是可以重复的，map的key却不能重复，后放入的岂不是把先放入的覆盖了吗？其实没关系，题目只是问你数组中两个相加等于target的元素的下标，并没有规定重复的元素取数组靠前或者靠后，所以只要符合两数相加登录target这一条即可*/
         var map = [Int:Int]();

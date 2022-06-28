@@ -13,10 +13,10 @@ class ArraySort: BaseViewController {
         super.viewDidLoad()
 
         //数组排序
-        var sets = Set<Int>();
-        let count = 10;
+        var sets = [Int]();
+        let count = 20;
         for _ in 0..<count {
-            sets.insert(Int(arc4random_uniform(UInt32(count))));
+            sets.append(Int(arc4random_uniform(UInt32(count))))
         }
         
         let arr = sets.map {  $0};
@@ -25,10 +25,12 @@ class ArraySort: BaseViewController {
         print("\n");
         print(bubblingSort(nums: arr));
         print("\n");
-        print(setsorted(nums: sets));
+//        print(setsorted(nums: sets));
         print("\n");
         print(shell(nums: arr));
-                
+        print("\n");
+        print("选择\(selectSort(nums: arr))");
+        
         /**
          多次测试后
          
@@ -52,7 +54,34 @@ class ArraySort: BaseViewController {
         return newArr;
     }
     
-    //插入
+    //MARK: 选择
+    func selectSort(nums: [Int]) -> [Int]{
+        let startTime = CFAbsoluteTimeGetCurrent()
+        if nums.count < 2 {
+            return nums;
+        }
+        
+        var new = nums;
+        for index in 0..<new.count {
+            var minIndex = index;
+            for index1 in (index+1)..<new.count {
+                minIndex = new[index1] < new[minIndex] ? index1 : minIndex;
+            }
+            swapArray(nums: &new, i: index, j: minIndex);
+        }
+        let endTime = CFAbsoluteTimeGetCurrent()
+        debugPrint("\(#function) 耗时：%f 毫秒", (endTime - startTime)*1000)
+        return new;
+    }
+    
+    //MARK: 交换位置方法
+    func swapArray(nums : inout [Int],i : Int,j : Int)  {
+        let tmp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = tmp;
+    }
+    
+    //MARK: 插入
     func insertSort(nums:[Int]) ->  [Int]{
         let startTime = CFAbsoluteTimeGetCurrent()
         
@@ -86,7 +115,7 @@ class ArraySort: BaseViewController {
         return newArr;
     }
     
-    //冒泡
+    //MARK: 冒泡
     func bubblingSort(nums:[Int]) ->  [Int]{
         let startTime = CFAbsoluteTimeGetCurrent()
 
@@ -111,7 +140,7 @@ class ArraySort: BaseViewController {
         return temp;
     }
     
-    //希尔
+    //MARK: 希尔
     func shell(nums:[Int]) -> [Int] {
         if nums.count < 2 {
             return nums;
