@@ -17,6 +17,8 @@
 		9618600927943BDC00E5B218 /* AlgorithmSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618600827943BDC00E5B218 /* AlgorithmSwiftUITestsLaunchTests.swift */; };
 		961860502794430E00E5B218 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618604F2794430E00E5B218 /* BaseViewController.swift */; };
 		9682729D286B50AC00EE4499 /* Cumsum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9682729C286B50AC00EE4499 /* Cumsum.swift */; };
+		968272A1286BEAA100EE4499 /* BinaryTreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9682729F286BEAA100EE4499 /* BinaryTreeController.swift */; };
+		968272A2286BEAA100EE4499 /* Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968272A0286BEAA100EE4499 /* Traverse.swift */; };
 		A43C3D5F28309C9600A5B4C8 /* MostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C3D5E28309C9600A5B4C8 /* MostWater.swift */; };
 		A43C3D6128309D5900A5B4C8 /* RainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C3D6028309D5900A5B4C8 /* RainWater.swift */; };
 		A4480BF52832490800810822 /* ArrayMedianController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4480BF42832490800810822 /* ArrayMedianController.swift */; };
@@ -81,6 +83,8 @@
 		9618600827943BDC00E5B218 /* AlgorithmSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9618604F2794430E00E5B218 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9682729C286B50AC00EE4499 /* Cumsum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cumsum.swift; sourceTree = "<group>"; };
+		9682729F286BEAA100EE4499 /* BinaryTreeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeController.swift; sourceTree = "<group>"; };
+		968272A0286BEAA100EE4499 /* Traverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Traverse.swift; sourceTree = "<group>"; };
 		A43C3D5E28309C9600A5B4C8 /* MostWater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostWater.swift; sourceTree = "<group>"; };
 		A43C3D6028309D5900A5B4C8 /* RainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainWater.swift; sourceTree = "<group>"; };
 		A4480BF42832490800810822 /* ArrayMedianController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayMedianController.swift; sourceTree = "<group>"; };
@@ -161,6 +165,7 @@
 		96185FE427943BDA00E5B218 /* AlgorithmSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9682729E286BEAA100EE4499 /* BinaryTree */,
 				A4A9EB5B27BB520000D24A69 /* Math */,
 				A4C91F2527B2388C00D91228 /* Array */,
 				A4C91F3227B2388C00D91228 /* ListNode */,
@@ -192,6 +197,15 @@
 				9618600827943BDC00E5B218 /* AlgorithmSwiftUITestsLaunchTests.swift */,
 			);
 			path = AlgorithmSwiftUITests;
+			sourceTree = "<group>";
+		};
+		9682729E286BEAA100EE4499 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				9682729F286BEAA100EE4499 /* BinaryTreeController.swift */,
+				968272A0286BEAA100EE4499 /* Traverse.swift */,
+			);
+			path = BinaryTree;
 			sourceTree = "<group>";
 		};
 		A4A9EB5B27BB520000D24A69 /* Math */ = {
@@ -404,6 +418,8 @@
 				A4C91F3C27B2388C00D91228 /* FindNumberIn2DArray.swift in Sources */,
 				A4C91F4B27B2388C00D91228 /* CircleString.swift in Sources */,
 				A4C91F3D27B2388C00D91228 /* ArraySort.swift in Sources */,
+				968272A2286BEAA100EE4499 /* Traverse.swift in Sources */,
+				968272A1286BEAA100EE4499 /* BinaryTreeController.swift in Sources */,
 				A4C91F4527B2388C00D91228 /* JumpFloor.swift in Sources */,
 				961860502794430E00E5B218 /* BaseViewController.swift in Sources */,
 				A4C91F5827B3B88E00D91228 /* RobotPathController.swift in Sources */,
