@@ -17,6 +17,16 @@ class BinaryTreeController: BaseViewController {
                 "title" : "二叉树遍历",
                 "class" : "Traverse"
             ],
+            [
+                "title" : "二叉树反转",
+                "class" : "Reversal"
+            ],
+            [
+                "title" : "二叉树深度",
+                "class" : "MaxDepth"
+            ],
+            
+            
         ]
     }
 

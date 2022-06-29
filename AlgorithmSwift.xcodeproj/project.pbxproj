@@ -19,6 +19,9 @@
 		9682729D286B50AC00EE4499 /* Cumsum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9682729C286B50AC00EE4499 /* Cumsum.swift */; };
 		968272A1286BEAA100EE4499 /* BinaryTreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9682729F286BEAA100EE4499 /* BinaryTreeController.swift */; };
 		968272A2286BEAA100EE4499 /* Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968272A0286BEAA100EE4499 /* Traverse.swift */; };
+		968272A4286C9E3500EE4499 /* Reversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968272A3286C9E3500EE4499 /* Reversal.swift */; };
+		968272A6286CA7C900EE4499 /* TreeTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968272A5286CA7C900EE4499 /* TreeTools.swift */; };
+		968272A8286CAB4400EE4499 /* MaxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968272A7286CAB4400EE4499 /* MaxDepth.swift */; };
 		A43C3D5F28309C9600A5B4C8 /* MostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C3D5E28309C9600A5B4C8 /* MostWater.swift */; };
 		A43C3D6128309D5900A5B4C8 /* RainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C3D6028309D5900A5B4C8 /* RainWater.swift */; };
 		A4480BF52832490800810822 /* ArrayMedianController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4480BF42832490800810822 /* ArrayMedianController.swift */; };
@@ -85,6 +88,9 @@
 		9682729C286B50AC00EE4499 /* Cumsum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cumsum.swift; sourceTree = "<group>"; };
 		9682729F286BEAA100EE4499 /* BinaryTreeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeController.swift; sourceTree = "<group>"; };
 		968272A0286BEAA100EE4499 /* Traverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Traverse.swift; sourceTree = "<group>"; };
+		968272A3286C9E3500EE4499 /* Reversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reversal.swift; sourceTree = "<group>"; };
+		968272A5286CA7C900EE4499 /* TreeTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTools.swift; sourceTree = "<group>"; };
+		968272A7286CAB4400EE4499 /* MaxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepth.swift; sourceTree = "<group>"; };
 		A43C3D5E28309C9600A5B4C8 /* MostWater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostWater.swift; sourceTree = "<group>"; };
 		A43C3D6028309D5900A5B4C8 /* RainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainWater.swift; sourceTree = "<group>"; };
 		A4480BF42832490800810822 /* ArrayMedianController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayMedianController.swift; sourceTree = "<group>"; };
@@ -204,6 +210,9 @@
 			children = (
 				9682729F286BEAA100EE4499 /* BinaryTreeController.swift */,
 				968272A0286BEAA100EE4499 /* Traverse.swift */,
+				968272A3286C9E3500EE4499 /* Reversal.swift */,
+				968272A7286CAB4400EE4499 /* MaxDepth.swift */,
+				968272A5286CA7C900EE4499 /* TreeTools.swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -428,6 +437,7 @@
 				A4C91F3B27B2388C00D91228 /* ThreeSum.swift in Sources */,
 				A4C91F4C27B2388C00D91228 /* RepetStringLength.swift in Sources */,
 				A4A9EB5A27B6544F00D24A69 /* EightQueenController.swift in Sources */,
+				968272A8286CAB4400EE4499 /* MaxDepth.swift in Sources */,
 				A4C91F5227B23AAD00D91228 /* OtherController.swift in Sources */,
 				A4C91F4627B2388C00D91228 /* ListNodeAction.swift in Sources */,
 				A4A9EB5F27BB529E00D24A69 /* MaxDecimalNumber.swift in Sources */,
@@ -437,10 +447,12 @@
 				A4C91F4727B2388C00D91228 /* SamePrefix.swift in Sources */,
 				A4C91F4E27B239A900D91228 /* StringController.swift in Sources */,
 				9682729D286B50AC00EE4499 /* Cumsum.swift in Sources */,
+				968272A4286C9E3500EE4499 /* Reversal.swift in Sources */,
 				A4C91F5427B23AD100D91228 /* ListNodeController.swift in Sources */,
 				A4C91F4A27B2388C00D91228 /* ReplaceBlank.swift in Sources */,
 				A43C3D5F28309C9600A5B4C8 /* MostWater.swift in Sources */,
 				A4C91F5027B23A2400D91228 /* ArrayController.swift in Sources */,
+				968272A6286CA7C900EE4499 /* TreeTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

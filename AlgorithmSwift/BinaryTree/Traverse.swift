@@ -36,8 +36,23 @@ class Traverse: BaseViewController {
         postPrintNode(tree: root)
         print("栈---------------");
         stackPrePrint(root);
+        print("回忆测试---------------");
+        test(root: root!);
+        
     }
     
+    
+    //MARK: 回忆专用方法
+    func test(root:TreeNode?) {
+        if root == nil {
+            return;
+        }
+        print(root!.val);
+        test(root: root!.left);
+        test(root: root!.right);
+        
+    }
+
     func preCreateTree(_ tree: inout TreeNode?,_ list : inout [String]) {
         if list.isEmpty {
             return ;
