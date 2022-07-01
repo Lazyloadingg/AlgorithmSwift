@@ -13,11 +13,20 @@ class ListNode {
     public init(_ val: Int) { self.val = val; self.next = nil; }
     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
 }
+
+class DoubleNode {
+    public var val: Int
+    public var next: DoubleNode?
+    public var last: DoubleNode?
+    public init() { self.val = 0; self.next = nil; self.last = nil;}
+    public init(_ val: Int) { self.val = val; self.next = nil; self.last = nil;}
+    public init(_ val: Int, _ next: DoubleNode? ,_ last : DoubleNode?) { self.val = val; self.next = next; }
+}
 class ReverseListNode: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //    反转链表
+        //    反转单向链表
         //    206：https://leetcode.cn/problems/reverse-linked-list/
         var current = ListNode();
         for index in (0..<10).reversed() {
@@ -45,7 +54,7 @@ class ReverseListNode: BaseViewController {
         printNode(reverseList1(current));
     }
     
-    //迭代法
+    //MARK: 迭代法
     func reverseList(_ head: ListNode?) -> ListNode? {
         
         //如果头结点为空或只有一个节点，没必要反转直接返回
@@ -67,7 +76,7 @@ class ReverseListNode: BaseViewController {
         return newHead;
     }
     
-    //遍历
+    //MARK: 遍历
     func reverseList1(_ head: ListNode?) -> ListNode? {
         if head == nil || head?.next == nil {
             return head;
@@ -89,6 +98,23 @@ class ReverseListNode: BaseViewController {
         return newHead;
     }
     
+    func reverseDoubleList(_ head: DoubleNode?) -> DoubleNode?{
+        if head == nil || head?.next == nil {
+            return head;
+        }
+        var cur = head;
+        var new : DoubleNode?;
+        while cur != nil{
+            let tmp = cur.next;
+            cur.next = new;
+            cur?.last = tmp;
+            new = cur;
+            cur = tmp;
+        }
+        return new;
+    }
+    
+    //MARK: 打印
     func printNode(_ head : ListNode?)  {
         if head == nil {
             return;
