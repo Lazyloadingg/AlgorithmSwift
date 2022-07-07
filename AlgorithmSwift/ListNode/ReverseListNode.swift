@@ -22,6 +22,8 @@ class DoubleNode {
     public init(_ val: Int) { self.val = val; self.next = nil; self.last = nil;}
     public init(_ val: Int, _ next: DoubleNode? ,_ last : DoubleNode?) { self.val = val; self.next = next; }
 }
+
+/// 翻转链表
 class ReverseListNode: BaseViewController {
 
     override func viewDidLoad() {
@@ -76,6 +78,32 @@ class ReverseListNode: BaseViewController {
         return newHead;
     }
     
+    //MARK: 排序链表
+    func sortList(_ head: ListNode?) -> ListNode?{
+        if head == nil || head?.next == nil {
+            return head;
+        }
+        
+        var cur = head;
+        var list = [Int]();
+        while cur != nil {
+            list.append(cur!.val);
+            cur = cur!.next;
+        }
+        list = list.sorted();
+        var new :ListNode?;
+        for index in (0..<list.count).reversed()  {
+            if new == nil {
+                new = ListNode(list[index]);
+            }else{
+                let tmp = ListNode(list[index]);
+                tmp.next = new;
+                new = tmp;
+            }
+        }
+        return new;
+        
+    }
     //MARK: 遍历
     func reverseList1(_ head: ListNode?) -> ListNode? {
         if head == nil || head?.next == nil {
@@ -105,11 +133,11 @@ class ReverseListNode: BaseViewController {
         var cur = head;
         var new : DoubleNode?;
         while cur != nil{
-            let tmp = cur.next;
-            cur.next = new;
-            cur?.last = tmp;
-            new = cur;
-            cur = tmp;
+//            let tmp = cur.next;
+//            cur.next = new;
+//            cur?.last = tmp;
+//            new = cur;
+//            cur = tmp;
         }
         return new;
     }

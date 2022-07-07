@@ -21,6 +21,11 @@ class ListNodeController: BaseViewController {
                 "title" : "链表反转",
                 "class" : "ReverseListNode"
             ],
+            [
+                "title" : "删除链表倒数第N个节点",
+                "class" : "RemoveNodeWithNum"
+            ],
+            
         ];
     }
 
