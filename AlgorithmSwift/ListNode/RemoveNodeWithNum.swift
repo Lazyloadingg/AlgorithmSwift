@@ -13,6 +13,7 @@ class RemoveNodeWithNum: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+
     //MARK: 双指针
     func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
         let dump : ListNode? = ListNode(0,head);
