@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9602567D288025EF0014EF82 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9602567C288025EF0014EF82 /* RemoveDuplicates.swift */; };
 		96185FE627943BDA00E5B218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96185FE527943BDA00E5B218 /* AppDelegate.swift */; };
 		96185FEA27943BDA00E5B218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96185FE927943BDA00E5B218 /* ViewController.swift */; };
 		96185FED27943BDA00E5B218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96185FEB27943BDA00E5B218 /* Main.storyboard */; };
@@ -73,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9602567C288025EF0014EF82 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		96185FE227943BDA00E5B218 /* AlgorithmSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96185FE527943BDA00E5B218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96185FE927943BDA00E5B218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				A4C91F5727B3B88E00D91228 /* RobotPathController.swift */,
 				A4A9EB5927B6544F00D24A69 /* EightQueenController.swift */,
 				A4480BF42832490800810822 /* ArrayMedianController.swift */,
+				9602567C288025EF0014EF82 /* RemoveDuplicates.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				A4C91F5827B3B88E00D91228 /* RobotPathController.swift in Sources */,
 				96185FEA27943BDA00E5B218 /* ViewController.swift in Sources */,
 				A4C91F4027B2388C00D91228 /* SameNum.swift in Sources */,
+				9602567D288025EF0014EF82 /* RemoveDuplicates.swift in Sources */,
 				A4C91F3B27B2388C00D91228 /* ThreeSum.swift in Sources */,
 				A4C91F4C27B2388C00D91228 /* RepetStringLength.swift in Sources */,
 				A4A9EB5A27B6544F00D24A69 /* EightQueenController.swift in Sources */,

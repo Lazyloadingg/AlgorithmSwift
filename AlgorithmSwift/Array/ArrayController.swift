@@ -65,7 +65,10 @@ class ArrayController: BaseViewController {
                 "title" : "目标数组指定区间累加和",
                 "class" : "Cumsum"
             ],
-            
+            [
+                "title" : "删除有序数组中的重复元素",
+                "class" : "RemoveDuplicates"
+            ],
         ]
     }
     
